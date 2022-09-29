@@ -1,0 +1,151 @@
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  max-width: 1920px;
+  width: 100%;
+  padding: 45px 50px 0;
+  background: white;
+
+  @media (max-width: 925px) {
+    position: static;
+    padding: 40px 20px 0;
+  }
+
+}
+
+.sectionsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 925px) {
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }
+
+  @media (max-width: 580px) {
+    align-items: center;
+  }
+}
+
+.logo {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: #303030;
+
+  @media (max-width: 768px) {
+    margin-left: 40px;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 30px;
+  }
+}
+
+.linksContainer {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+}
+
+.links {
+  position: relative;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #343434;
+  margin-right: 50px;
+  &:hover {
+    color: #388af3;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+}
+
+.links.active {
+  color: #388af3;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #388af3;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
+
+.langsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+}
+
+.langContainer {
+  margin-right: 40px;
+  display: flex;
+
+  @media (max-width: 768px) {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
+
+.lang {
+  position: relative;
+  margin-right: 15px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #979bad;
+  cursor: pointer;
+  &:hover {
+    color: #388af3;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 40px;
+  }
+}
+
+.lang.active {
+  color: #388af3;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #388af3;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
+
+.iconContainer {
+  cursor: pointer;
+  @media (max-width: 768px) {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+}

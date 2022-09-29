@@ -1,0 +1,159 @@
+.footerContainer {
+  padding: 42px 17% 20px 17%;  
+  background: linear-gradient(93.29deg, #388af3 21.04%, #a483e2 88.77%);
+
+  @media (max-width: 1180px) {
+    padding: 40px;
+  }
+}
+
+.sectionsContainerFooter {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1180px) {
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 925px) {
+    flex-wrap: wrap;
+    position: relative;
+  }
+}
+
+.section1Footer {
+  @media (max-width: 925px) {
+    position: absolute;
+    top: 0;
+    left: 40px;
+  }
+}
+
+.section2Footer {
+  @media (max-width: 925px) {
+    margin: 40px 40px 0 40px;
+  }
+}
+
+.section3Footer {
+  @media (max-width: 925px) {
+    margin: 40px 40px 0 40px;
+  }
+}
+
+.section4Footer {
+  @media (max-width: 925px) {
+    margin: 40px 40px 0 40px;
+  }
+}
+
+.section5Footer {
+  @media (max-width: 925px) {
+    margin: 40px 40px 0 40px;
+  }
+
+  @media (max-width: 480px) {
+    position: absolute;
+    right: 0px;
+    top: 466px;
+  }
+
+  @media (max-width: 370px) {
+    position: static;
+  }
+}
+
+.bottomContainerFooter {
+  margin-top: 49px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1180px) {
+    flex-wrap: wrap-reverse;
+    margin: 40px 0 0 20px;
+  }
+}
+
+.companyContainer {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+
+  @media (max-width: 1180px) {
+    margin: 10px;
+  }
+}
+
+.politicContainer {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+
+  @media (max-width: 1180px) {
+    margin: 10px;
+  }
+}
+
+.logoFooter {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: #ffffff;
+
+  @media (max-width: 420px) {
+    font-size: 30px;
+  }
+}
+
+.imgFooter {
+  margin-left: 10px;
+}
+
+.titleFooter {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.textsFooter {
+  max-width: 176px;
+  margin-top: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.number {
+  margin-top: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.watsappFooter {
+  margin-top: 89px;
+  @media (max-width: 925px) {
+    margin-top: 0;
+  }
+}
+
+.telegramFooter {
+  margin-top: 20px;
+}
